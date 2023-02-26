@@ -1,0 +1,66 @@
+// MAchine Learning
+digraph {
+	overlap=false
+	sep=0.5
+	nodesep=0.5
+	fontsize=20
+	node [fontname="Helvetica-Bold"]
+	"Machine Learning" [label="Machine Learning" fillcolor=lightblue shape=ellipse style=filled]
+	node [fillcolor=lightblue shape=ellipse style=filled]
+	node [height=0.5 width=0.75]
+	"Machine Learning" [height=2 width=3]
+	"Supervised Learning" [height=1.5 width=3]
+	Classification [height=1 width=1.5]
+	Regression [height=1 width=1.5]
+	"Unsupervised Learning" [height=1.5 width=3]
+	Clustering [height=0.75 width=2]
+	"Dimensionality Reduction" [height=0.75 width=2]
+	"Anomaly Detection" [height=0.75 width=2]
+	"Generative Models" [height=0.75 width=2]
+	"Reinforcement Learning" [height=1.5 width=3]
+	"Markov Decision Processes" [height=0.75 width=2]
+	"Q-Learning" [height=0.75 width=2]
+	"Policy Gradient Methods" [height=0.75 width=2]
+	"Supervised Learning" [label="Supervised Learning" fillcolor=lightblue shape=ellipse style=filled]
+	Classification [label=Classification fillcolor=lightblue shape=ellipse style=filled]
+	Regression [label=Regression fillcolor=lightblue shape=ellipse style=filled]
+	"Unsupervised Learning" [label="Unsupervised Learning" fillcolor=lightblue shape=ellipse style=filled]
+	Clustering [label=Clustering fillcolor=lightblue shape=ellipse style=filled]
+	"Dimensionality Reduction" [label="Dimensionality Reduction" fillcolor=lightblue shape=ellipse style=filled]
+	"Anomaly Detection" [label="Anomaly Detection" fillcolor=lightblue shape=ellipse style=filled]
+	"Generative Models" [label="Generative Models" fillcolor=lightblue shape=ellipse style=filled]
+	"Reinforcement Learning" [label="Reinforcement Learning" fillcolor=lightblue shape=ellipse style=filled]
+	"Markov Decision Processes" [label="Markov Decision Processes" fillcolor=lightblue shape=ellipse style=filled]
+	"Q-Learning" [label="Q-Learning" fillcolor=lightblue shape=ellipse style=filled]
+	"Policy Gradient Methods" [label="Policy Gradient Methods" fillcolor=lightblue shape=ellipse style=filled]
+	"Machine Learning" -> "Supervised Learning"
+	"Machine Learning" -> "Unsupervised Learning"
+	"Machine Learning" -> "Reinforcement Learning"
+	"Supervised Learning" -> Classification
+	"Supervised Learning" -> Regression
+	"Unsupervised Learning" -> Clustering
+	"Unsupervised Learning" -> "Dimensionality Reduction"
+	"Unsupervised Learning" -> "Anomaly Detection"
+	"Unsupervised Learning" -> "Generative Models"
+	"Reinforcement Learning" -> "Markov Decision Processes"
+	"Reinforcement Learning" -> "Q-Learning"
+	"Reinforcement Learning" -> "Policy Gradient Methods"
+	"Predicting if a wireless transmission is legitimate or malicious" [label="Predicting if a wireless transmission is legitimate or malicious" fillcolor=lightblue shape=rect style=filled]
+	"Predicting received signal strength at a particular location" [label="Predicting received signal strength at a particular location" fillcolor=lightblue shape=rect style=filled]
+	"Clustering users based on their mobility patterns or signal characteristics" [label="Clustering users based on their mobility patterns or signal characteristics" fillcolor=lightblue shape=rect style=filled]
+	"Reducing the number of features in the data for compression or visualization" [label="Reducing the number of features in the data for compression or visualization" fillcolor=lightblue shape=rect style=filled]
+	"Detecting unexpected network behavior" [label="Detecting unexpected network behavior" fillcolor=lightblue shape=rect style=filled]
+	"Synthesizing realistic wireless signals" [label="Synthesizing realistic wireless signals" fillcolor=lightblue shape=rect style=filled]
+	"Designing wireless communication protocols" [label="Designing wireless communication protocols" fillcolor=lightblue shape=rect style=filled]
+	"Optimizing resource allocation in wireless networks" [label="Optimizing resource allocation in wireless networks" fillcolor=lightblue shape=rect style=filled]
+	"Optimizing routing in wireless networks" [label="Optimizing routing in wireless networks" fillcolor=lightblue shape=rect style=filled]
+	Classification -> "Predicting if a wireless transmission is legitimate or malicious"
+	Regression -> "Predicting received signal strength at a particular location"
+	Clustering -> "Clustering users based on their mobility patterns or signal characteristics"
+	"Dimensionality Reduction" -> "Reducing the number of features in the data for compression or visualization"
+	"Anomaly Detection" -> "Detecting unexpected network behavior"
+	"Generative Models" -> "Synthesizing realistic wireless signals"
+	"Markov Decision Processes" -> "Designing wireless communication protocols"
+	"Q-Learning" -> "Optimizing resource allocation in wireless networks"
+	"Policy Gradient Methods" -> "Optimizing routing in wireless networks"
+}

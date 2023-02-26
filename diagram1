@@ -1,0 +1,45 @@
+// Literature Review Taxonomy
+digraph {
+	overlap=false
+	sep=0.5
+	nodesep=0.5
+	fontsize=20
+	node [fontname="Helvetica-Bold"]
+	LiteratureReview [label="Literature Review" fillcolor=lightblue shape=ellipse style=filled]
+	GNNs [label="Graph Neural Networks (GNNs)" fillcolor=lightblue shape=ellipse style=filled]
+	DigitalTwins [label="Digital Twins" fillcolor=lightblue shape=ellipse style=filled]
+	ZeroTouchNetworks [label="O-RAN Zero-Touch Networks" fillcolor=lightblue shape=ellipse style=filled]
+	GNNIntro [label=Introduction fillcolor=lightblue shape=rect style=filled]
+	GNNArchitecture [label=Architecture fillcolor=lightblue shape=rect style=filled]
+	GNNKeyFeatures [label="Key features and benefits" fillcolor=lightblue shape=rect style=filled]
+	GNNApplications [label=Applications fillcolor=lightblue shape=rect style=filled]
+	GNNLimitations [label="Limitations and challenges" fillcolor=lightblue shape=rect style=filled]
+	DTIntro [label=Introduction fillcolor=lightblue shape=rect style=filled]
+	DTArchitecture [label=Architecture fillcolor=lightblue shape=rect style=filled]
+	DTKeyFeatures [label="Key features and benefits" fillcolor=lightblue shape=rect style=filled]
+	DTApplications [label=Applications fillcolor=lightblue shape=rect style=filled]
+	DTLimitations [label="Limitations and challenges" fillcolor=lightblue shape=rect style=filled]
+	ZeroTouchIntro [label=Introduction fillcolor=lightblue shape=rect style=filled]
+	ZeroTouchArchitecture [label=Architecture fillcolor=lightblue shape=rect style=filled]
+	ZeroTouchKeyFeatures [label="Key features and benefits" fillcolor=lightblue shape=rect style=filled]
+	ZeroTouchApplications [label=Applications fillcolor=lightblue shape=rect style=filled]
+	ZeroTouchLimitations [label="Limitations and challenges" fillcolor=lightblue shape=rect style=filled]
+	LiteratureReview -> GNNs
+	LiteratureReview -> DigitalTwins
+	LiteratureReview -> ZeroTouchNetworks
+	GNNs -> GNNIntro
+	GNNs -> GNNArchitecture
+	GNNs -> GNNKeyFeatures
+	GNNs -> GNNApplications
+	GNNs -> GNNLimitations
+	DigitalTwins -> DTIntro
+	DigitalTwins -> DTArchitecture
+	DigitalTwins -> DTKeyFeatures
+	DigitalTwins -> DTApplications
+	DigitalTwins -> DTLimitations
+	ZeroTouchNetworks -> ZeroTouchIntro
+	ZeroTouchNetworks -> ZeroTouchArchitecture
+	ZeroTouchNetworks -> ZeroTouchKeyFeatures
+	ZeroTouchNetworks -> ZeroTouchApplications
+	ZeroTouchNetworks -> ZeroTouchLimitations
+}
